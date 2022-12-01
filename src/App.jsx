@@ -1,18 +1,21 @@
-import React from 'react';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
 import {About,Contact,Gallery,Home,Navbar,NotFound,Plans,Trainers} from './pages/export';
+import NavBar from './components/NavBar';
 
 const App = () => {
   return (
-    <div>
-     <About />
-     <Contact />
-     <Gallery />
-     <Home />
-     <Navbar />
-     <NotFound />
-     <Plans />
-     <Trainers />
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <About />
+      <Contact />
+      <Gallery />
+      <Home />
+      <Navbar />
+      <NotFound />
+      <Plans />
+      <Trainers />
+    </BrowserRouter>
   )
 }
 
