@@ -7,14 +7,15 @@ const App = () => {
   return (
     <BrowserRouter>
       <NavBar />
-      <About />
-      <Contact />
-      <Gallery />
-      <Home />
-      <Navbar />
-      <NotFound />
-      <Plans />
-      <Trainers />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='gallery' element={<Gallery />} />
+        <Route path='plans' element={<Plans />} />
+        <Route path='trainers' element={<Trainers />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
     </BrowserRouter>
   )
 }
