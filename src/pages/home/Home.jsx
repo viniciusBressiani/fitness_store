@@ -4,6 +4,7 @@ import MainHeader from '../../components/MainHeader';
 import Programs from '../../components/Programs';
 import Values from '../../components/Values';
 import './home.css';
+import Testimonials from './../../components/Testimonials';
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <Programs />
       <Values />
       <FAQs />
-      
+      <Testimonials />
     </div>
   )
 }
