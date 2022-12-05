@@ -100,7 +100,7 @@ img {
 }
 
 
-/* Cards and Head section */
+/* Head section */
 
 section {
     margin-top: 10rem;
@@ -119,6 +119,8 @@ section {
     color: var(--color-secondary);
     font-size: 2rem;
 }
+
+/* Card */
 
 .card {
     background: var(--color-gray-500);
