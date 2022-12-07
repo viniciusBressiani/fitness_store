@@ -1,0 +1,31 @@
+.contact__wrapper{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contact__wrapper a {
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: 2px solid transparent;
+    font-size: 48px;
+    transition: var(--transition);
+    
+}
+
+.contact__wrapper a:hover {
+    background: transparent;
+    border-color: var(--color-gray-100);
+}
+
+@media screen and (max-width: 600px) {
+    .contact__wrapper a {
+        padding: 1rem;
+        font-size: 32px;
+        border-radius: 1rem;
+    }
+    
+}
+
