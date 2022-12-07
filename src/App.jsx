@@ -2,6 +2,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 import {About,Contact,Gallery,Home,Navbar,NotFound,Plans,Trainers} from './pages/export';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
