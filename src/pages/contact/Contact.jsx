@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
     <Header image={headerImage} title="Get in Touch">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, eum? Obcaecati impedit tenetur ratione totam doloremque nemo itaque error quam.</p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, eum? Obcaecati impedit tenetur ratione totam doloremque nemo itaque error quam.
     </Header>
     <section className="contact">
       <div className="container contact__container">

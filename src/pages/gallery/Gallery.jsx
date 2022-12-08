@@ -14,7 +14,7 @@ const Gallery = () => {
   return (
     <>
     <Header title='Our Gallery' image={headerImage}>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo saepe necessitatibus error sunt, rerum quibusdam repudiandae voluptas animi eaque blanditiis.</p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo saepe necessitatibus error sunt, rerum quibusdam repudiandae voluptas animi eaque blanditiis.
     </Header>
     <section className="gallery">
       <div className="container gallery__container">
