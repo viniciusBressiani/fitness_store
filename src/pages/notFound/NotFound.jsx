@@ -6,7 +6,7 @@ const NotFound = () => {
     <section>
       <div className="container notfound__container">
         <h2>Page Not Found</h2>
-        <Link to="/" className='btn'>Go Back Home</Link>
+        <Link to="fitness-store-routes/" className='btn'>Go Back Home</Link>
       </div>
     </section>
   )

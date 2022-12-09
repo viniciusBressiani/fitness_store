@@ -5,27 +5,27 @@ import {SiOpenaigym} from 'react-icons/si'
 export const links = [
     {
         name: "Home",
-        path: '/'
+        path: 'fitness-store-routes/'
     },
     {
         name: "About",
-        path: '/about'
+        path: 'fitness-store-routes/about'
     },
     {
         name: "Gallery",
-        path: '/gallery'
+        path: 'fitness-store-routes/gallery'
     },
     {
         name: "Plans",
-        path: '/plans'
+        path: 'fitness-store-routes/plans'
     },
     {
         name: "Trainers",
-        path: '/trainers'
+        path: 'fitness-store-routes/trainers'
     },
     {
         name: "Contact",
-        path: '/contact'
+        path: 'fitness-store-routes/contact'
     }
 ]
 
@@ -41,28 +41,28 @@ export const programs = [
         icon: <SiOpenaigym/>,
         title: "Program One",
         info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/111"
+        path: "plans"
     },
     {
         id: 2,
         icon: <SiOpenaigym/>,
         title: "Program Two",
         info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/222"
+        path: "plans"
     },
     {
         id: 3,
         icon: <SiOpenaigym/>,
         title: "Program Three",
         info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/333"
+        path: "plans"
     },
     {
         id: 4,
         icon: <SiOpenaigym/>,
         title: "Program Four",
         info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/444"
+        path: "plans"
     }
 ]
 

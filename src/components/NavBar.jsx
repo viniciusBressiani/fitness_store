@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className="container nav__container">
-            <Link to='/' className="logo" onClick={() => setIsNavShowing(false)}>
+            <Link to='fitness-store-routes/' className="logo" onClick={() => setIsNavShowing(false)}>
                 <img src={Logo} alt="Nav Logo" />
             </Link>
             <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>

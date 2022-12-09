@@ -9,13 +9,14 @@ const App = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route index element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='gallery' element={<Gallery />} />
-        <Route path='plans' element={<Plans />} />
-        <Route path='trainers' element={<Trainers />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='*' element={<NotFound />} />
+        {/* <Route index element={<Home />} /> */}
+        <Route path='fitness-store-routes/' element={<Home />} />
+        <Route path='fitness-store-routes/about' element={<About />} />
+        <Route path='fitness-store-routes/gallery' element={<Gallery />} />
+        <Route path='fitness-store-routes/plans' element={<Plans />} />
+        <Route path='fitness-store-routes/trainers' element={<Trainers />} />
+        <Route path='fitness-store-routes/contact' element={<Contact />} />
+        <Route path='fitness-store-routes/*' element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
         <div className="container footer__container">
             <article>
-                <Link className="logo" to='/'>
+                <Link className="logo" to='fitness-store-routes/'>
                     <img src={Logo} alt="Logo" />
                 </Link>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, itaque nulla numquam aspernatur voluptatem dignissimos.</p>
@@ -23,24 +23,24 @@ const Footer = () => {
             </article>
             <article>
                 <h4>Permalinks</h4>
-                <Link to='/about'>About</Link>
-                <Link to='/plans'>Plans</Link>
-                <Link to='/trainers'>Trainers</Link>
-                <Link to='/gallery'>Gallery</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link to='fitness-store-routes/about'>About</Link>
+                <Link to='fitness-store-routes/plans'>Plans</Link>
+                <Link to='fitness-store-routes/trainers'>Trainers</Link>
+                <Link to='fitness-store-routes/gallery'>Gallery</Link>
+                <Link to='fitness-store-routes/contact'>Contact</Link>
             </article>
             <article>
                 <h4>Insights</h4>
-                <Link to='/'>Blog</Link>
-                <Link to='/'>Case Studies</Link>
-                <Link to='/'>Events</Link>
-                <Link to='/'>Communities</Link>
-                <Link to='/'>FAQS</Link>
+                <Link to='fitness-store-routes/'>Blog</Link>
+                <Link to='fitness-store-routes/'>Case Studies</Link>
+                <Link to='fitness-store-routes/'>Events</Link>
+                <Link to='fitness-store-routes/'>Communities</Link>
+                <Link to='fitness-store-routes/'>FAQS</Link>
             </article>
             <article>
                 <h4>Get In Touch</h4>
-                <Link to='/contact'>Contact Us</Link>
-                <Link to='/'>Support</Link>
+                <Link to='fitness-store-routes/contact'>Contact Us</Link>
+                <Link to='fitness-store-routes/'>Support</Link>
             </article>
         </div>
         <div className="footer__copyright">
